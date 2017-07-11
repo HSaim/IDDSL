@@ -1,0 +1,60 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+                <!-- START footer -->
+                <footer id="footer">
+                    <div class="container">
+			<div class="row">
+                            <div class="col-md-4">
+				<div class="copyright">
+                                    <p><small>
+                                        <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+                                        <jsp:useBean id="date" class="java.util.Date" />
+                                        <fmt:formatDate value="${date}" pattern="yyyy" /> 
+                                        &copy; Rice Lab,<br/> Lahore University of Management Sciences, Lahore, Pakistan. <br/>All Rights Reserved. 
+                                    </small></p>
+				</div>
+                            </div>
+                                        
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <h3>About KMAT</h3>
+                                        <p>We provide knowledge management system for SME</p>
+                                        <p><a href="AboutKMAT.jsp" class="btn btn-primary btn-outline with-arrow btn-sm">KMAT Introduction<i class="icon-arrow-right"></i></a></p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h3>KMAT Components</h3>
+                                        <ul class="link">
+                                            <li><a href="ProcessLadder.jsp">Process Ladders</a></li>
+                                            <li><a href = "CompositionLadder.jsp">Composition Ladders</a></li>
+                                            <li><a href="ConceptMap.jsp">Concept Maps</a></li>
+                                            <li><a href="Resources.jsp">Resources</a></li>
+                                            <li><a href="Tools.jsp">Tools</a></li>
+                                            <li><a href="Users.jsp">Users</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <ul class="social-icons">
+                                    <li>
+                                        <a href="#"><i class="icon-twitter-with-circle"></i></a>
+                                        <a href="#"><i class="icon-facebook-with-circle"></i></a>
+                                        <a href="#"><i class="icon-instagram-with-circle"></i></a>
+                                        <a href="#"><i class="icon-linkedin-with-circle"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+		</footer>                
+                <!-- END footer -->	
+            </div>
+            <!-- END page -->
+        </div>
+        <!-- END wrapper -->
+        
+       
+    </body>
+</html>

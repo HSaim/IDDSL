@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 3, 2017, 4:16:53 PM
+    Author     : Maryam Khalid
+*/
+
+.ladder-view-table-icons
+{
+	color:#444;
+}
+.ladder-view-table-icons:hover,
+.ladder-view-table-icons:focus
+{
+	color:black;
+}
+
+.ladder-view-table-link:hover,
+.ladder-view-table-link:focus
+{
+	font-weight:bolder;
+	font-size:large;
+	cursor: pointer;
+	cursor: hand;
+
+
+	/*color:black;*/
+
+}
+
+.ladder-view-table-row
+{
+	padding-top: 1.5em;
+
+}
+
+.ladder-view-table-row:hover,
+.ladder-view-table-row:focus
+{
+	background-color:lightgray;
+}
+
+.table-row-div-align
+{
+	display: inline-block;
+
+
+/*	padding-top: 1.2em;
+	padding-bottom: 0;*/
+
+	vertical-align: middle;
+}
+
+.table-scroll-span
+{
+	/*display: block;*/
+	/*max-height: 100%*/;
+	overflow-y: scroll;
+}

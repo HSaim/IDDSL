@@ -1,0 +1,173 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 19, 2016, 10:22:02 AM
+    Author     : Habiba Saim
+*/
+
+.sidebox {
+  margin-top: 10px; 
+  float: left;
+  width: 100%; 
+  height: 100%;
+  
+   
+}
+
+.sidebox .sidebox-lead {
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  float: left;
+  width: 100%;
+  display: block;
+  text-transform: uppercase; 
+  
+}
+
+.sidebox-menu {
+  padding: 0;
+  margin: 0; 
+  height: 100%;
+  background-color: #f1f1f1;
+   
+}
+
+.sidebox-menu li {
+  padding: 0;
+  margin: 0;
+  display: block;
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc; 
+  
+}
+.sidebox-menu li:last-child{
+     border-bottom: none;
+}
+.sidebox-menu li ul{
+    padding: 0;
+    margin: 0;
+}
+.sidebox-menu li ul li {
+    border-bottom: none;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+        
+}
+.sidebox-menu li ul li a{
+   font-family: "Roboto", arial, sans-serif;
+}
+.sidebox-menu a {
+  display: block;
+  width: 100%;
+  font-family: "Montserrat", arial, sans-serif; 
+}
+
+.sidebox-menu a img {
+  max-width: 100%;
+  float: left;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px; 
+}
+
+.sidebox-menu a .sidebox-menu-media {
+  float: left;
+  width: 20%;
+  margin-right: 5%;
+  margin-top: 5px; 
+}
+
+.sidebox-menu .sidebox-menu-blurb {
+  float: left;
+  /* width: 75%; */
+  color: #000;
+  line-height: 1.5; 
+  font-size: 16px;
+  
+  display: block;
+}
+
+.sidebox-menu a .sidebox-menu-meta {
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ccc;
+  display: block; 
+}
+
+.sidebox-menu-blurb-sub {
+  float: left;
+  /* width: 75%; */
+  color: #0000FF;
+  line-height: 1.5; 
+  font-size: 13px;
+  
+} 
+.sidebox-menu a:hover, .sidebox-menu a:active, .sidebox-menu a:focus {
+  text-decoration: none; 
+}
+
+.sidebox-menu a:hover .sidebox-menu-blurb-sub, .sidebox-menu a:active .sidebox-menu-blurb, .sidebox-menu a:focus .sidebox-menu-blurb {
+  color: #FBB040; 
+}
+
+.sidebox-menu a:hover .sidebox-menu-media, .sidebox-menu a:hover .sidebox-menu-blurb, .sidebox-menu a:hover .sidebox-menu-meta, .sidebox-menu a:active .sidebox-menu-media, .sidebox-menu a:active .sidebox-menu-blurb, .sidebox-menu a:active .sidebox-menu-meta, .sidebox-menu a:focus .sidebox-menu-media, .sidebox-menu a:focus .sidebox-menu-blurb, .sidebox-menu a:focus .sidebox-menu-meta {
+  text-decoration: none; 
+}
+
+.back-color{
+    background-color: #f9f9f9;
+}
+
+.disableLink{
+  color: #d3d3d3;
+  /*background-color: #fff;*/
+  border-color: #ddd;
+  cursor: not-allowed;
+}
+/* Highlight the active left sidebar option */
+body.view-users .sidebox-menu li ul li.view-users > a .sidebox-menu-blurb-sub,
+body.add-user .sidebox-menu li ul li.add-user > a .sidebox-menu-blurb-sub,
+body.view-roles .sidebox-menu li ul li.view-roles > a .sidebox-menu-blurb-sub,
+body.add-role .sidebox-menu li ul li.add-role > a .sidebox-menu-blurb-sub,
+body.view-c-ladders .sidebox-menu li ul li.view-c-ladders > a .sidebox-menu-blurb-sub,
+body.add-c-ladder .sidebox-menu li ul li.add-c-ladder > a .sidebox-menu-blurb-sub,
+body.view-p-ladders .sidebox-menu li ul li.view-p-ladders > a .sidebox-menu-blurb-sub,
+body.add-p-ladder .sidebox-menu li ul li.add-p-ladder > a .sidebox-menu-blurb-sub,
+body.view-c-maps .sidebox-menu li ul li.view-c-maps > a .sidebox-menu-blurb-sub,
+body.add-c-map .sidebox-menu li ul li.add-c-map > a .sidebox-menu-blurb-sub,
+body.view-tools .sidebox-menu li ul li.view-tools > a .sidebox-menu-blurb-sub,
+body.add-tool .sidebox-menu li ul li.add-tool > a .sidebox-menu-blurb-sub,
+body.view-resources .sidebox-menu li ul li.view-resources > a .sidebox-menu-blurb-sub,
+body.add-resource .sidebox-menu li ul li.add-resource > a .sidebox-menu-blurb-sub{
+    color : #d2be0e;
+    font-weight: bold;
+    /*font-size:large;*/
+    text-decoration: underline;
+}
+
+body.edit-profile .sidebox-menu  li.edit-profile > a .sidebox-menu-blurb-sub,
+body.change-password .sidebox-menu  li.change-password > a .sidebox-menu-blurb-sub{
+    color : #d2be0e;
+    font-weight: bold;
+    /*font-size:large;*/
+    text-decoration: underline;
+}
+
+.extend-sidebar p{
+   
+  margin-top: 300px
+
+} 

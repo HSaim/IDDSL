@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 21, 2016, 3:33:13 PM
+    Author     : Habiba Saim
+*/
+
+#banner {
+  background-color: #2e2e2e;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
+  height: 300px;
+  /*position: fixed;*/
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  color: #ffffff;
+  width: 100%;
+  display: block;
+  position: relative;
+	
+}
+@media screen and (max-width: 768px) {
+  #banner {
+    background-position: center center;
+  }
+}
+#banner .banner-wrap {
+  display: table;
+  height: 350px;
+  width: 100%;
+}
+#banner .banner-wrap .banner-intro {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+#banner .banner-wrap .banner-intro > h1 {
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 42px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+@media screen and (max-width: 768px) {
+  #banner .banner-wrap .banner-intro > h1 {
+    letter-spacing: 4px;
+    font-size: 30px;
+    line-height: 32px;
+  }
+}
+#banner .banner-wrap .banner-intro > h2 {
+  letter-spacing: 4px;
+  font-size: 16px;
+  text-transform: uppercase;
+  /*padding-bottom: 20px;*/
+  position: relative;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  #banner .banner-wrap .banner-intro > h2 {
+    letter-spacing: 3px;
+  }
+}
+#banner .banner-wrap .banner-intro > h2 > span {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  background: rgba(255, 255, 255, 0.4);
+  width: 50px;
+  height: 3px;
+  left: 50%;
+  margin-left: -25px;
+  
+}
+#banner .banner-wrap .btn {
+  color: #ffffff;
+}
+#banner .banner-wrap .btn:hover, #banner .banner-wrap .btn:active, #banner .banner-wrap .btn:focus {
+  background: #28bbf8;
+  border-color: #28bbf8;
+}
+
+body.inner-page #banner {
+  height: 400px;
+}
+body.inner-page #banner .banner-wrap {
+  padding-top: 50px;
+  height: 400px;
+}
+
+@media screen and (max-width: 768px) {
+  #banner, .banner-wrap {
+    position: relative;
+    padding: 4em 0 3em 0;
+    height: inherit !important;
+  }
+}
+
+.da-slider {
+	width: 100%;
+	min-width: 520px;
+	display: block;
+/*	height: 400px;*/
+	position: relative;
+	/*margin: 30px auto;*/
+	overflow: hidden;
+	background-repeat:no-repeat; 
+   	background-position:center;
+	background-color: #cccccc;
+	/*border-top:  solid #ddd;
+	border-bottom:  solid #ddd;*/
+	box-shadow: 0px 1px 1px rgba(0,0,0,0.2), 0px -2px 1px #fff;
+	-webkit-transition: background-position 1.4s ease-in-out 0.3s;
+	-moz-transition: background-position 1.4s ease-in-out 0.3s;
+	-o-transition: background-position 1.4s ease-in-out 0.3s;
+	-ms-transition: background-position 1.4s ease-in-out 0.3s;
+	transition: background-position 1.4s ease-in-out 0.3s;
+}
